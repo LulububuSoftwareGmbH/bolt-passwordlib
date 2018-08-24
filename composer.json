@@ -1,7 +1,7 @@
 {
     "name": "bolt/passwordlib",
     "type": "library",
-	"version": "1.0.0",
+	"version": "1.0.1",
     "description": "A Password Hashing Library",
     "keywords": ["password", "hash", "hashing", "random", "salt", "crypt"],
     "homepage": "https://github.com/bolt/PHP-PasswordLib",
@@ -18,6 +18,9 @@
             "homepage": "https://bolt.cm"
         }
     ],
+    "replace": {
+        "passwordlib/passwordlib": "*"
+    },
     "require-dev": {
         "mikey179/vfsStream": "1.1.*"
     },
