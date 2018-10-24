@@ -11,13 +11,7 @@ PHP-PasswordLib aims to be an all-inclusive cryptographic library for all crypto
 
 # Installation
 
-PasswordLib supports multiple installation methods.
-
-## PHAR
-
-From the [downloads](https://github.com/ircmaxell/PHP-PasswordLib/downloads) tab, download the latest phar build.  Then, just require the phar in your code!
-
-    require_once '/path/to/PasswordLib.phar';
+`composer require bolt/passwordlib` 
 
 ## Composer
 
